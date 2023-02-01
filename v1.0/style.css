@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Cabin&family=Lora:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700");
+
+/*font-family: 'Bonheur Royale', cursive;
+font-family: 'Cabin', sans-serif;*/
+html {
+  font-family: "Cabin", sans-serif;
+  font-size: 18px;
+}
+body {
+  margin: 0px;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c2919d;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.container-main-flex {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+nav {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #753545;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.header-container-fluid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf3ed;
+  font-size: 70px;
+  font-family: "Bonheur Royale", cursive;
+  color: #753545;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #753545;
+}
+
+.container-hero {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #faf3ed;
+}
+
+.custom-shape-divider-bottom-1674658507 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1674658507 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 69px;
+}
+
+.custom-shape-divider-bottom-1674658507 .shape-fill {
+  fill: #c2919d;
+}
+
+.container-hero {
+  display: flex;
+  font-family: "Cabin", sans-serif;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.hero-image {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-right {
+  display: flex;
+  color: #753545;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.container-about-title {
+  display: flex;
+  font-size: 4em;
+  font-family: "Bonheur Royale", cursive;
+  background-color: #c2919d;
+  color: white;
+  flex-direction: row;
+  justify-content: center;
+}
+.col-about-text {
+  max-width: 50%;
+  padding: 60px;
+}
+.container-about {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1em;
+  color: white;
+  background-color: #c2919d;
+  justify-content: center;
+  z-index: 1;
+}
+
+.custom-shape-divider-bottom-1674662934 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: -1;
+}
+
+.custom-shape-divider-bottom-1674662934 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 69px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1674662934 .shape-fill {
+  fill:#75585F;
+}
+
+
+.container-artist {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  font-size: 6em;
+  color: white;
+  background-color: #75585F;
+  justify-content: center;
+  font-family: "Bonheur Royale", cursive;
+  z-index: 1;
+}
+.row-artist {
+  display: flex;
+  font-size: ;
+  font-family: "Bonheur Royale", cursive;
+  background-color: #75585F;
+  color: white;
+  flex-direction: row;
+  justify-content: center;
+}
+.row-gallery {
+  display: flex;
+  background-color: #753545;
+  color: white;
+  font-family: "Bonheur Royale", cursive;
+  font-size: 4em;
+  justify-content: center;
+}
+
+#caption {
+flex-direction: column;
+color:white;
+}
+.row-gallery-images {
+  display: flex;
+  position: relative;
+  background-color: #753545;
+  padding: none;
+  justify-content: center;
+}
+.custom-shape-divider-top-1674664866 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: 1;
+  display: flex;
+}
+
+.custom-shape-divider-top-1674664866 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 500px;
+  z-index: 1;
+  display: flex;
+}
+
+.custom-shape-divider-top-1674664866 .shape-fill {
+  fill: #753545;
+  z-index: 1;
+  display: flex;
+}
+
+.row-shape {
+  display: flex;
+  position: relative;
+  z-index: -1;
+  background-color: #75585f;
+}
+.row-contact {
+  display: flex;
+  position: relative;
+  margin: none;
+  font-size: 4em;
+  font-family: "Bonheur Royale", cursive;
+  background-color: #75585f;
+}
+
+.form {
+  display: table;
+}
+
+.p {
+  display: table-row;
+}
+
+.label {
+  display: table-cell;
+  text-align: left;
+}
+
+.input {
+  display: table-cell;
+}
+.touch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-info {
+  font-size: 4em;
+  font-family: "Bonheur Royale", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
